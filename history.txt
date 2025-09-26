@@ -1,0 +1,340 @@
+    1  pwd
+    2  ls
+    3  mkdir Lab_2
+    4  cd Lab_2
+    5  mkdir Notes
+    6  mkdir Practice
+    7  cd Notes
+    8  cd Practice
+    9  cd Lab_2
+   10  cd ~
+   11  cd Lab_2/Practice
+   12  cd ~/Lab_2
+   13  ls 
+   14  ls Notes
+   15  ls Practice
+   16  cd Notes
+   17  touch commands.txt
+   18  echo ?
+   19  ?
+   20  help
+   21  ls
+   22  echo "pwd - prints current directory">commands.txt
+   23  cat commands.txt
+   24  echo "ls - lists files" >> commands.txt
+   25  cat commands.txt
+   26  echo "cd - changes directory" >> commands.txt
+   27  cat commands.txt
+   28  cp commands.txt ~/Lab_2/Practice
+   29  cd ~/Lab_2/Practice
+   30  ls
+   31  cat commands.txt
+   32  mv commands.txt my_commands.txt
+   33  ls
+   34  cat my_commands.txt
+   35  cd ~/Lab_2/Notes
+   36  rm commands.txt
+   37  ls
+   38  cd ~
+   39  touch system_info.txt
+   40  whoami > system_info.txt
+   41  uname -a >> system_info.txt
+   42  date >> system_info.txt
+   43  df -h >> system_info.txt
+   44  ls
+   45  cat system_info.txt
+   46  cp system_info.txt Lab_2
+   47  rm system_info.txt
+   48  ls
+   49  cd Lab_2
+   50  ls
+   51  cat system_info.txt
+   52  cd ~
+   53  tar -czvf laa55_IT340_Lab2.tar.gz Lab_2 
+   54  ls
+   55  history > history.txt
+   56  cat history.txt
+   57  pwd
+   58  echo "Goodbye!"
+   59  ls
+   60  ls -i history.txt
+   61  ls -l
+   62  ping 8.8.8.8
+   63  ipconfig
+   64  help
+   65  echo
+   66  echo \n
+   67  echo \t
+   68  pwd
+   69  cd ~
+   70  sudo -i
+   71  cd /home/luis-acevedi/Desktop
+   72  ls -a
+   73  cd /home/luis-acevedi/Documents
+   74  ls 
+   75  ls -a
+   76  cd ..
+   77  cd ~/Documents
+   78  ls -a
+   79  cd .
+   80  cd ..
+   81  ls
+   82  nano history.txt
+   83  l
+   84  nano laa55_IT340_Lab2.tar.gz
+   85  touch myFile.txt
+   86  nano myFile.txt
+   87  cat myFile.txt
+   88  which rm rf
+   89  whereis history.txt
+   90  git
+   91  touch OctalNotations.txt
+   92  nano OctalNotations.txt
+   93  cd Lab_2
+   94  ls -l
+   95  chmod 750 notes/
+   96  ls
+   97  chmod 750 Notes/
+   98  ls -;
+   99  ls -l
+  100  ls -l system_info.txt
+  101  git status
+  102  sudo apt install git
+  103  ip?
+  104  git status
+  105  ping 127.0.0.1
+  106  ping 192.168.37.129
+  107  ls
+  108  cat InstallGitLinux.txt
+  109  sudo apt get install git
+  110  git status
+  111  sudo apt install git
+  112  sudo apt get upgrade
+  113  sudo apt upgrade
+  114  sudo apt git upgrade
+  115  sudo apt get upgrade
+  116  sudo apt upgrade
+  117  ls
+  118  cat InstallGitLinux.txt
+  119  sudo apt upgrade
+  120  git status
+  121  ping 8.8.8.8
+  122  ls
+  123  ls -a
+  124  cd ..
+  125  ls -a
+  126  cd ..
+  127  ls -a
+  128  cd etc
+  129  cat passwd
+  130  cat group
+  131  cat hostname
+  132  cat os-release
+  133  cd ..
+  134  ls -a
+  135  cd sys
+  136  ls
+  137  cd kernel
+  138  cd debug
+  139  ls -a
+  140  cd debug
+  141  cd ..
+  142  cd kernel/debug
+  143  sudo cd kernel/debug
+  144  sudo
+  145  cd kernel/debug
+  146  sudo cd kernel
+  147  cd kernel
+  148  cd debug
+  149  cat kernel/debug/multigrain_timestamps
+  150  cat debug/multigrain_timestamps
+  151  sudo ?
+  152  sudo cd
+  153  cd debug
+  154  sudo debug
+  155  sudo cd debug
+  156  sudo -s
+  157  cd ~
+  158  pwd
+  159  sudo -s
+  160  ls
+  161  cd ../..
+  162  ls lab_3
+  163  cat lab_3
+  164  ls
+  165  cd home
+  166  ls
+  167  cd luis-acevedi
+  168  sudo apt-get install git
+  169  sudo apt-get update
+  170  sudo apt-get upgrade
+  171  git --version
+  172  git config --global user.name LArmAce
+  173  git config --global user.email
+  174  git config --global user.email lacevedogalvez@gmail.com
+  175  cd ~/lab_3
+  176  sudo -s
+  177  cd lab_3
+  178  git init
+  179  sudo -s
+  180  cd ..
+  181  cd lab_3
+  182  history>history.txt
+  183  sudo -s
+  184  ls
+  185  sudo -S
+  186  sudo -s
+  187  cd ..
+  188  cp -r lab_3 Lab3
+  189  ls -a
+  190  ls ..
+  191  ls ../..
+  192  mv Lab_3 ../../tmp
+  193  sudo mv Lab_3 ../../tmp
+  194  sudo chown Luis Acevedi
+  195  sudo chown Luis Acevedo 
+  196  sudo chown Luis_Acevedo
+  197  pwd
+  198  ls
+  199  sudo chown Luis_Acevedo /home/luis-acevedi/lab_3
+  200  chown --help
+  201  cat /etc/passwd
+  202  sudo chown luis-acevedi
+  203  pwd
+  204  sudo chown luis-acevedi /home/luis-acevedi/lab_3
+  205  ls -a
+  206  sudo Lab_3 ../../temp
+  207  sudo mv Lab_3 ../../temp
+  208  sudo mv Lab3  ../../temp
+  209  ls -a
+  210  mv laa55_IT340_Lab2.tar.fz Lab_2
+  211  mv laa55_IT340_Lab2.tar.gz Lab_2
+  212  mv lab_3 Lab_3
+  213  ls -a
+  214  cd Lab_3
+  215  ls -a
+  216  git status
+  217  git config --global --add safe.directory /home/luis-acevedi/Lab_3
+  218  git status
+  219  mv history.txt ..
+  220  git status
+  221  cd ~
+  222  cd Lab_3
+  223  git add .
+  224  git add GitPassword.txt
+  225  git add gitlink.txt
+  226  cd ..
+  227  ls -a
+  228  ping 8.8.8.8
+  229  cd Lab_4
+  230  touch disk_report.sh
+  231  ls -l
+  232  chmod 770 disk_report.sh
+  233  ls -l
+  234  nano disk_report.sh
+  235  ./disk_report.sh
+  236  ls
+  237  disk_report.sh
+  238  ls
+  239  ./ disk_report.sh
+  240  ./
+  241  pwd
+  242  cd .
+  243  chmod +x disk_report.sh
+  244  disk_report.sh
+  245  ./disk.report.sh
+  246  ls
+  247  cd ~
+  248  /Lab_4/disk_report.sh
+  249  ls Lab_4
+  250  Lab_4
+  251  Lab_4/disk_report.sh
+  252  cd Lab_4
+  253  ls -l disk_report.sh
+  254  ./disk_report.sh.
+  255  ./disk_report.sh ?
+  256  cat disk_report.sh
+  257  nano disk_report.sh
+  258  cat disk_report.sh
+  259  ./disk_report.sh
+  260  ls
+  261  cd ~
+  262  ls
+  263  cat disk_usage.log
+  264  crontab -e
+  265  crontab -l
+  266  crontab -e
+  267  systemctl status cron
+  268  crontab -l
+  269  ps aux | grep cron
+  270  ls
+  271  cat disk_usage.log
+  272  systemctl status cron
+  273  ps aux | grep cron
+  274  ./disk_report.sh
+  275  cd Lab_4
+  276  ./disk_report.sh
+  277  cd ..
+  278  ls
+  279  cat disk_usage.log
+  280  cron -l
+  281  crontab -l
+  282  crontab-e
+  283  crontab -e
+  284  systemctl status cron
+  285  cd Lab_4
+  286  git init
+  287  git status
+  288  mv disk_report.sh .
+  289  mv disk_report.sh ~
+  290  ls
+  291  cd ~
+  292  crontab -e
+  293  cd Lab_4
+  294  git status
+  295  git clone https://github.com/LAceArm/IT-340-Lab-4-Repo~
+  296  git clone https://github.com/LAceArm/IT-340-Lab-4-Repo
+  297  git clone https://github.com/LAceArm/IT-340-Lab-4-Repo.git
+  298  git fetch --all
+  299  git pull origin main
+  300  git pull origin master
+  301  git pull remote master
+  302  git branch
+  303  git status
+  304  git add .
+  305  git rm --cached IT-340-Lab-4-Repo
+  306  git status
+  307  cd ~
+  308  rm Lab_4
+  309  rm -f Lab_4
+  310  cd Lab_4
+  311  git fetch ?
+  312  git fetch
+  313  git pull origin master
+  314  git pull
+  315  git remote add origin
+  316  git remote add origin https://github.com/LAceArm/IT-340-Lab-4-Repo
+  317  git pull origin main
+  318  ls ~
+  319  cp ~/disk_report.sh
+  320  cp ~/disk_report.sh .
+  321  ls
+  322  git status
+  323  cp ~/disk_usage.log .
+  324  git add .
+  325  git commit -m "Adding files"
+  326  git push origin master
+  327  git push origin main
+  328  git status
+  329  tar -czvf laa55_IT340_Lab2.tar.gz Lab_4
+  330  cd ~
+  331  tar -czvf laa55_IT340_Lab2.tar.gz Lab_4
+  332  git status
+  333  cd Lab_4
+  334  git status
+  335  git add .
+  336  git commt -m "Adding tar file"
+  337  git commit -m "Adding tar file"
+  338  git push origin main
+  339  git push origin master
+  340  history>history.txt
